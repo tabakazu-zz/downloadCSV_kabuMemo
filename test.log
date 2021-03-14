@@ -1,0 +1,511 @@
+[2021-03-13 23:03:17]cl_getDriver.py(34): getURL=https://kabuoji3.com/stock/1301/
+[2021-03-13 23:03:48]cl_getDriver.py(34): getURL=https://kabuoji3.com/stock/1301/
+[2021-03-13 23:09:10]cl_getDriver.py(34): getURL=https://kabuoji3.com/stock/1301/
+[2021-03-13 23:09:26]cl_getDriver.py(40): Open NewTab
+[2021-03-13 23:09:52]cl_getDriver.py(89): Not Found->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:10:08]cl_getDriver.py(89): Not Found->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:10:30]cl_getDriver.py(40): Open NewTab
+[2021-03-13 23:11:04]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:11:22]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:11:43]cl_getDriver.py(40): Open NewTab
+[2021-03-13 23:11:55]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:12:26]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:12:37]cl_getDriver.py(40): Open NewTab
+[2021-03-13 23:12:39]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:12:41]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:12:41]cl_getDriver.py(40): Open NewTab
+[2021-03-13 23:12:43]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:12:45]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:12:45]cl_getDriver.py(40): Open NewTab
+[2021-03-13 23:12:46]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:12:49]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:12:49]cl_getDriver.py(40): Open NewTab
+[2021-03-13 23:12:50]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:12:53]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:12:53]cl_getDriver.py(40): Open NewTab
+[2021-03-13 23:12:54]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:12:57]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:12:57]cl_getDriver.py(40): Open NewTab
+[2021-03-13 23:12:58]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:13:00]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:13:00]cl_getDriver.py(40): Open NewTab
+[2021-03-13 23:13:02]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:13:04]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:13:04]cl_getDriver.py(40): Open NewTab
+[2021-03-13 23:13:06]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:13:08]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:13:08]cl_getDriver.py(40): Open NewTab
+[2021-03-13 23:13:10]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:13:12]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:13:12]cl_getDriver.py(40): Open NewTab
+[2021-03-13 23:13:14]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:13:16]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:13:16]cl_getDriver.py(40): Open NewTab
+[2021-03-13 23:13:18]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:13:20]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:13:20]cl_getDriver.py(40): Open NewTab
+[2021-03-13 23:13:22]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:13:24]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:13:24]cl_getDriver.py(40): Open NewTab
+[2021-03-13 23:13:25]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:13:28]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:13:28]cl_getDriver.py(40): Open NewTab
+[2021-03-13 23:13:29]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:13:31]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:13:31]cl_getDriver.py(40): Open NewTab
+[2021-03-13 23:13:33]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:13:35]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:13:35]cl_getDriver.py(40): Open NewTab
+[2021-03-13 23:13:36]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:13:39]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:13:39]cl_getDriver.py(40): Open NewTab
+[2021-03-13 23:13:41]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:13:43]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:13:43]cl_getDriver.py(40): Open NewTab
+[2021-03-13 23:13:45]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:13:47]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:13:47]cl_getDriver.py(40): Open NewTab
+[2021-03-13 23:13:49]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:13:51]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:13:52]cl_getDriver.py(40): Open NewTab
+[2021-03-13 23:13:53]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:13:56]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:13:56]cl_getDriver.py(40): Open NewTab
+[2021-03-13 23:13:57]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:14:00]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:14:00]cl_getDriver.py(40): Open NewTab
+[2021-03-13 23:14:01]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:14:04]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:14:04]cl_getDriver.py(40): Open NewTab
+[2021-03-13 23:14:05]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:14:07]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:14:08]cl_getDriver.py(40): Open NewTab
+[2021-03-13 23:14:09]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:14:11]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:14:11]cl_getDriver.py(40): Open NewTab
+[2021-03-13 23:14:12]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:14:15]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:14:15]cl_getDriver.py(40): Open NewTab
+[2021-03-13 23:14:16]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:14:18]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:14:18]cl_getDriver.py(40): Open NewTab
+[2021-03-13 23:14:20]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:14:22]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:14:22]cl_getDriver.py(40): Open NewTab
+[2021-03-13 23:14:23]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:14:26]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:14:26]cl_getDriver.py(40): Open NewTab
+[2021-03-13 23:14:27]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:14:29]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:14:29]cl_getDriver.py(40): Open NewTab
+[2021-03-13 23:14:31]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:14:33]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:14:33]cl_getDriver.py(40): Open NewTab
+[2021-03-13 23:14:35]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:14:37]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:14:37]cl_getDriver.py(40): Open NewTab
+[2021-03-13 23:14:38]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:14:41]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:14:41]cl_getDriver.py(40): Open NewTab
+[2021-03-13 23:14:42]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:14:44]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:14:44]cl_getDriver.py(40): Open NewTab
+[2021-03-13 23:14:46]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:14:49]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:14:49]cl_getDriver.py(40): Open NewTab
+[2021-03-13 23:14:50]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:14:52]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:14:53]cl_getDriver.py(40): Open NewTab
+[2021-03-13 23:14:54]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:14:56]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:14:56]cl_getDriver.py(40): Open NewTab
+[2021-03-13 23:14:57]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-13 23:15:00]cl_getDriver.py(86): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 07:51:08]cl_getDriver.py(34): getURL=https://kabuoji3.com/stock/1305/
+[2021-03-14 07:51:08]main.py(35): failed Click->https://kabuoji3.com/stock/1305/
+[2021-03-14 07:51:09]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2021/
+[2021-03-14 07:51:09]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2020/
+[2021-03-14 07:51:09]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2019/
+[2021-03-14 07:51:09]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2018/
+[2021-03-14 07:51:09]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2017/
+[2021-03-14 07:51:09]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2016/
+[2021-03-14 07:51:10]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2015/
+[2021-03-14 07:51:10]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2014/
+[2021-03-14 07:51:10]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2013/
+[2021-03-14 07:51:10]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2012/
+[2021-03-14 07:51:10]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2011/
+[2021-03-14 07:51:10]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2010/
+[2021-03-14 07:51:10]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2009/
+[2021-03-14 07:51:11]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2008/
+[2021-03-14 07:51:11]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2007/
+[2021-03-14 07:51:11]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2006/
+[2021-03-14 07:51:11]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2005/
+[2021-03-14 07:51:11]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2004/
+[2021-03-14 07:51:11]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2003/
+[2021-03-14 07:51:11]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2002/
+[2021-03-14 07:51:12]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2001/
+[2021-03-14 07:51:51]cl_getDriver.py(34): getURL=https://kabuoji3.com/stock/1305/
+[2021-03-14 07:52:17]main.py(35): failed Click->https://kabuoji3.com/stock/1305/
+[2021-03-14 07:53:59]cl_getDriver.py(34): getURL=https://kabuoji3.com/stock/1305/
+[2021-03-14 07:54:20]main.py(35): failed Click->https://kabuoji3.com/stock/1305/
+[2021-03-14 07:54:45]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2021/
+[2021-03-14 07:54:55]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2020/
+[2021-03-14 07:54:55]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2019/
+[2021-03-14 07:54:55]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2018/
+[2021-03-14 07:54:55]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2017/
+[2021-03-14 07:54:55]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2016/
+[2021-03-14 07:54:55]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2015/
+[2021-03-14 07:54:55]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2014/
+[2021-03-14 07:54:55]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2013/
+[2021-03-14 07:54:55]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2012/
+[2021-03-14 07:54:55]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2011/
+[2021-03-14 07:54:55]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2010/
+[2021-03-14 07:54:55]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2009/
+[2021-03-14 07:54:55]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2008/
+[2021-03-14 07:54:55]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2007/
+[2021-03-14 07:54:55]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2006/
+[2021-03-14 07:54:55]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2005/
+[2021-03-14 07:54:55]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2004/
+[2021-03-14 07:54:55]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2003/
+[2021-03-14 07:54:55]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2002/
+[2021-03-14 07:54:55]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2001/
+[2021-03-14 07:55:24]cl_getDriver.py(34): getURL=https://kabuoji3.com/stock/1305/
+[2021-03-14 07:55:36]main.py(35): failed Click->https://kabuoji3.com/stock/1305/
+[2021-03-14 07:55:47]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2021/
+[2021-03-14 07:55:55]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2020/
+[2021-03-14 07:55:55]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2019/
+[2021-03-14 07:55:55]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2018/
+[2021-03-14 07:55:55]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2017/
+[2021-03-14 07:55:55]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2016/
+[2021-03-14 07:55:55]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2015/
+[2021-03-14 07:55:55]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2014/
+[2021-03-14 07:55:55]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2013/
+[2021-03-14 07:55:55]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2012/
+[2021-03-14 07:55:55]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2011/
+[2021-03-14 07:55:55]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2010/
+[2021-03-14 07:55:55]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2009/
+[2021-03-14 07:55:55]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2008/
+[2021-03-14 07:55:55]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2007/
+[2021-03-14 07:55:55]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2006/
+[2021-03-14 07:55:55]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2005/
+[2021-03-14 07:55:55]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2004/
+[2021-03-14 07:55:55]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2003/
+[2021-03-14 07:55:55]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2002/
+[2021-03-14 07:55:55]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2001/
+[2021-03-14 07:56:40]cl_getDriver.py(34): getURL=https://kabuoji3.com/stock/1305/
+[2021-03-14 07:57:46]main.py(35): failed Click->https://kabuoji3.com/stock/1305/
+[2021-03-14 07:58:24]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2021/
+[2021-03-14 08:00:12]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2020/
+[2021-03-14 08:00:12]main.py(25): failed Click->https://kabuoji3.com/stock/1305/2019/
+[2021-03-14 08:00:12]main.py(25): failed Click->https://kabuoji3.com/stock/1305/2018/
+[2021-03-14 08:00:12]main.py(25): failed Click->https://kabuoji3.com/stock/1305/2017/
+[2021-03-14 08:00:12]main.py(25): failed Click->https://kabuoji3.com/stock/1305/2016/
+[2021-03-14 08:00:12]main.py(25): failed Click->https://kabuoji3.com/stock/1305/2015/
+[2021-03-14 08:00:12]main.py(25): failed Click->https://kabuoji3.com/stock/1305/2014/
+[2021-03-14 08:00:12]main.py(25): failed Click->https://kabuoji3.com/stock/1305/2013/
+[2021-03-14 08:00:12]main.py(25): failed Click->https://kabuoji3.com/stock/1305/2012/
+[2021-03-14 08:00:12]main.py(25): failed Click->https://kabuoji3.com/stock/1305/2011/
+[2021-03-14 08:00:12]main.py(25): failed Click->https://kabuoji3.com/stock/1305/2010/
+[2021-03-14 08:00:12]main.py(25): failed Click->https://kabuoji3.com/stock/1305/2009/
+[2021-03-14 08:00:12]main.py(25): failed Click->https://kabuoji3.com/stock/1305/2008/
+[2021-03-14 08:00:12]main.py(25): failed Click->https://kabuoji3.com/stock/1305/2007/
+[2021-03-14 08:00:12]main.py(25): failed Click->https://kabuoji3.com/stock/1305/2006/
+[2021-03-14 08:00:12]main.py(25): failed Click->https://kabuoji3.com/stock/1305/2005/
+[2021-03-14 08:00:12]main.py(25): failed Click->https://kabuoji3.com/stock/1305/2004/
+[2021-03-14 08:00:12]main.py(25): failed Click->https://kabuoji3.com/stock/1305/2003/
+[2021-03-14 08:00:12]main.py(25): failed Click->https://kabuoji3.com/stock/1305/2002/
+[2021-03-14 08:00:12]main.py(25): failed Click->https://kabuoji3.com/stock/1305/2001/
+[2021-03-14 08:01:24]cl_getDriver.py(34): getURL=https://kabuoji3.com/stock/1305/
+[2021-03-14 08:01:25]main.py(35): failed Click->https://kabuoji3.com/stock/1305/
+[2021-03-14 08:01:25]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2021/
+[2021-03-14 08:01:25]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2020/
+[2021-03-14 08:01:25]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2019/
+[2021-03-14 08:01:25]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2018/
+[2021-03-14 08:01:25]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2017/
+[2021-03-14 08:01:26]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2016/
+[2021-03-14 08:01:26]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2015/
+[2021-03-14 08:01:26]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2014/
+[2021-03-14 08:01:26]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2013/
+[2021-03-14 08:01:26]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2012/
+[2021-03-14 08:01:26]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2011/
+[2021-03-14 08:01:26]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2010/
+[2021-03-14 08:01:27]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2009/
+[2021-03-14 08:01:27]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2008/
+[2021-03-14 08:01:27]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2007/
+[2021-03-14 08:01:27]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2006/
+[2021-03-14 08:01:27]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2005/
+[2021-03-14 08:01:27]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2004/
+[2021-03-14 08:01:27]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2003/
+[2021-03-14 08:01:28]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2002/
+[2021-03-14 08:01:28]main.py(35): failed Click->https://kabuoji3.com/stock/1305/2001/
+[2021-03-14 08:03:53]cl_getDriver.py(34): getURL=https://kabuoji3.com/stock/1305/
+[2021-03-14 08:05:08]cl_getDriver.py(34): getURL=https://kabuoji3.com/stock/1305/
+[2021-03-14 08:05:09]cl_getDriver.py(42): Open NewTab->https://kabuoji3.com/stock/1305/
+[2021-03-14 08:05:09]cl_getDriver.py(99): Not Found->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:05:11]cl_getDriver.py(99): Not Found->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:06:34]cl_getDriver.py(34): getURL=https://kabuoji3.com/stock/1305/
+[2021-03-14 08:06:35]cl_getDriver.py(42): Open NewTab->https://kabuoji3.com/stock/1305/
+[2021-03-14 08:06:35]cl_getDriver.py(100): Not Found->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:06:37]cl_getDriver.py(100): Not Found->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:06:37]cl_getDriver.py(42): Open NewTab->https://kabuoji3.com/stock/1305/2021/
+[2021-03-14 08:06:38]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:06:40]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:06:41]cl_getDriver.py(42): Open NewTab->https://kabuoji3.com/stock/1305/2020/
+[2021-03-14 08:06:42]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:06:45]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:06:45]cl_getDriver.py(42): Open NewTab->https://kabuoji3.com/stock/1305/2019/
+[2021-03-14 08:06:46]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:06:49]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:06:49]cl_getDriver.py(42): Open NewTab->https://kabuoji3.com/stock/1305/2018/
+[2021-03-14 08:06:50]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:06:52]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:06:53]cl_getDriver.py(42): Open NewTab->https://kabuoji3.com/stock/1305/2017/
+[2021-03-14 08:06:54]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:06:56]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:06:56]cl_getDriver.py(42): Open NewTab->https://kabuoji3.com/stock/1305/2016/
+[2021-03-14 08:06:58]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:07:00]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:07:00]cl_getDriver.py(42): Open NewTab->https://kabuoji3.com/stock/1305/2015/
+[2021-03-14 08:07:01]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:07:04]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:07:04]cl_getDriver.py(42): Open NewTab->https://kabuoji3.com/stock/1305/2014/
+[2021-03-14 08:07:05]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:07:07]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:07:08]cl_getDriver.py(42): Open NewTab->https://kabuoji3.com/stock/1305/2013/
+[2021-03-14 08:07:09]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:07:11]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:07:11]cl_getDriver.py(42): Open NewTab->https://kabuoji3.com/stock/1305/2012/
+[2021-03-14 08:07:13]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:07:15]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:07:15]cl_getDriver.py(42): Open NewTab->https://kabuoji3.com/stock/1305/2011/
+[2021-03-14 08:07:16]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:07:19]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:07:19]cl_getDriver.py(42): Open NewTab->https://kabuoji3.com/stock/1305/2010/
+[2021-03-14 08:07:20]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:07:23]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:07:23]cl_getDriver.py(42): Open NewTab->https://kabuoji3.com/stock/1305/2009/
+[2021-03-14 08:07:25]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:07:27]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:07:27]cl_getDriver.py(42): Open NewTab->https://kabuoji3.com/stock/1305/2008/
+[2021-03-14 08:07:28]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:07:31]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:07:31]cl_getDriver.py(42): Open NewTab->https://kabuoji3.com/stock/1305/2007/
+[2021-03-14 08:07:32]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:07:34]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:07:35]cl_getDriver.py(42): Open NewTab->https://kabuoji3.com/stock/1305/2006/
+[2021-03-14 08:07:36]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:07:38]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:07:38]cl_getDriver.py(42): Open NewTab->https://kabuoji3.com/stock/1305/2005/
+[2021-03-14 08:07:39]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:07:42]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:07:42]cl_getDriver.py(42): Open NewTab->https://kabuoji3.com/stock/1305/2004/
+[2021-03-14 08:07:44]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:07:46]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:07:46]cl_getDriver.py(42): Open NewTab->https://kabuoji3.com/stock/1305/2003/
+[2021-03-14 08:07:47]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:07:50]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:07:50]cl_getDriver.py(42): Open NewTab->https://kabuoji3.com/stock/1305/2002/
+[2021-03-14 08:07:51]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:07:54]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:07:54]cl_getDriver.py(42): Open NewTab->https://kabuoji3.com/stock/1305/2001/
+[2021-03-14 08:07:55]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:07:57]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:19:22]cl_getDriver.py(34): getURL=https://kabuoji3.com/stock/1306/
+[2021-03-14 08:19:23]cl_getDriver.py(42): Open NewTab->https://kabuoji3.com/stock/1306/
+[2021-03-14 08:19:23]cl_getDriver.py(100): Not Found->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:19:25]cl_getDriver.py(100): Not Found->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:19:26]cl_getDriver.py(42): Open NewTab->https://kabuoji3.com/stock/1306/2021/
+[2021-03-14 08:19:28]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:19:30]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:19:30]cl_getDriver.py(42): Open NewTab->https://kabuoji3.com/stock/1306/2020/
+[2021-03-14 08:19:32]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:19:34]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:19:34]cl_getDriver.py(42): Open NewTab->https://kabuoji3.com/stock/1306/2019/
+[2021-03-14 08:19:35]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:19:38]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:19:38]cl_getDriver.py(42): Open NewTab->https://kabuoji3.com/stock/1306/2018/
+[2021-03-14 08:19:39]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:19:41]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:19:42]cl_getDriver.py(42): Open NewTab->https://kabuoji3.com/stock/1306/2017/
+[2021-03-14 08:19:43]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:19:45]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:19:46]cl_getDriver.py(42): Open NewTab->https://kabuoji3.com/stock/1306/2016/
+[2021-03-14 08:19:47]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:19:50]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:19:50]cl_getDriver.py(42): Open NewTab->https://kabuoji3.com/stock/1306/2015/
+[2021-03-14 08:19:51]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:19:54]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:19:54]cl_getDriver.py(42): Open NewTab->https://kabuoji3.com/stock/1306/2014/
+[2021-03-14 08:19:55]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:19:57]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:19:58]cl_getDriver.py(42): Open NewTab->https://kabuoji3.com/stock/1306/2013/
+[2021-03-14 08:19:59]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:20:01]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:20:02]cl_getDriver.py(42): Open NewTab->https://kabuoji3.com/stock/1306/2012/
+[2021-03-14 08:20:03]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:20:05]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:20:06]cl_getDriver.py(42): Open NewTab->https://kabuoji3.com/stock/1306/2011/
+[2021-03-14 08:20:07]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:20:09]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:20:10]cl_getDriver.py(42): Open NewTab->https://kabuoji3.com/stock/1306/2010/
+[2021-03-14 08:20:11]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:20:13]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:20:17]cl_getDriver.py(42): Open NewTab->https://kabuoji3.com/stock/1306/2009/
+[2021-03-14 08:20:18]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:20:20]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:20:21]cl_getDriver.py(42): Open NewTab->https://kabuoji3.com/stock/1306/2008/
+[2021-03-14 08:20:22]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:20:25]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:20:25]cl_getDriver.py(42): Open NewTab->https://kabuoji3.com/stock/1306/2007/
+[2021-03-14 08:20:26]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:20:29]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:20:29]cl_getDriver.py(42): Open NewTab->https://kabuoji3.com/stock/1306/2006/
+[2021-03-14 08:20:30]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:20:33]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:20:33]cl_getDriver.py(42): Open NewTab->https://kabuoji3.com/stock/1306/2005/
+[2021-03-14 08:20:34]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:20:36]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:20:37]cl_getDriver.py(42): Open NewTab->https://kabuoji3.com/stock/1306/2004/
+[2021-03-14 08:20:38]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:20:40]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:20:41]cl_getDriver.py(42): Open NewTab->https://kabuoji3.com/stock/1306/2003/
+[2021-03-14 08:20:42]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:20:44]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:20:45]cl_getDriver.py(42): Open NewTab->https://kabuoji3.com/stock/1306/2002/
+[2021-03-14 08:20:46]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:20:48]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:20:49]cl_getDriver.py(42): Open NewTab->https://kabuoji3.com/stock/1306/2001/
+[2021-03-14 08:20:50]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:20:52]cl_getDriver.py(97): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:26:17]main.py(14): start_Process->https://kabuoji3.com/stock/1308/
+[2021-03-14 08:26:22]cl_getDriver.py(37): getURL=https://kabuoji3.com/stock/1308/
+[2021-03-14 08:26:22]cl_getDriver.py(45): Open NewTab->https://kabuoji3.com/stock/1308/
+[2021-03-14 08:26:23]cl_getDriver.py(103): Not Found->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:26:25]cl_getDriver.py(103): Not Found->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:26:25]cl_getDriver.py(45): Open NewTab->https://kabuoji3.com/stock/1308/2021/
+[2021-03-14 08:26:25]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:26:28]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:26:28]cl_getDriver.py(45): Open NewTab->https://kabuoji3.com/stock/1308/2020/
+[2021-03-14 08:26:28]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:26:31]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:26:31]cl_getDriver.py(45): Open NewTab->https://kabuoji3.com/stock/1308/2019/
+[2021-03-14 08:26:31]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:26:34]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:26:34]cl_getDriver.py(45): Open NewTab->https://kabuoji3.com/stock/1308/2018/
+[2021-03-14 08:26:35]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:26:37]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:26:37]cl_getDriver.py(45): Open NewTab->https://kabuoji3.com/stock/1308/2017/
+[2021-03-14 08:26:38]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:26:40]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:26:40]cl_getDriver.py(45): Open NewTab->https://kabuoji3.com/stock/1308/2016/
+[2021-03-14 08:26:41]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:26:44]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:26:44]cl_getDriver.py(45): Open NewTab->https://kabuoji3.com/stock/1308/2015/
+[2021-03-14 08:26:44]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:26:47]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:26:47]cl_getDriver.py(45): Open NewTab->https://kabuoji3.com/stock/1308/2014/
+[2021-03-14 08:26:48]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:26:50]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:26:50]cl_getDriver.py(45): Open NewTab->https://kabuoji3.com/stock/1308/2013/
+[2021-03-14 08:26:51]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:26:53]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:26:53]cl_getDriver.py(45): Open NewTab->https://kabuoji3.com/stock/1308/2012/
+[2021-03-14 08:26:54]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:26:57]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:26:57]cl_getDriver.py(45): Open NewTab->https://kabuoji3.com/stock/1308/2011/
+[2021-03-14 08:26:58]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:27:00]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:27:00]cl_getDriver.py(45): Open NewTab->https://kabuoji3.com/stock/1308/2010/
+[2021-03-14 08:27:01]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:27:03]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:27:03]cl_getDriver.py(45): Open NewTab->https://kabuoji3.com/stock/1308/2009/
+[2021-03-14 08:27:04]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:27:07]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:27:07]cl_getDriver.py(45): Open NewTab->https://kabuoji3.com/stock/1308/2008/
+[2021-03-14 08:27:08]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:27:10]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:27:10]cl_getDriver.py(45): Open NewTab->https://kabuoji3.com/stock/1308/2007/
+[2021-03-14 08:27:11]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:27:13]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:27:13]cl_getDriver.py(45): Open NewTab->https://kabuoji3.com/stock/1308/2006/
+[2021-03-14 08:27:14]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:27:17]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:27:17]cl_getDriver.py(45): Open NewTab->https://kabuoji3.com/stock/1308/2005/
+[2021-03-14 08:27:18]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:27:20]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:27:20]cl_getDriver.py(45): Open NewTab->https://kabuoji3.com/stock/1308/2004/
+[2021-03-14 08:27:21]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:27:24]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:27:24]cl_getDriver.py(45): Open NewTab->https://kabuoji3.com/stock/1308/2003/
+[2021-03-14 08:27:24]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:27:27]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:27:27]cl_getDriver.py(45): Open NewTab->https://kabuoji3.com/stock/1308/2002/
+[2021-03-14 08:27:28]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:27:30]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:27:30]main.py(41): finished Process->https://kabuoji3.com/stock/1308/
+[2021-03-14 08:28:10]main.py(14): start_Process->https://kabuoji3.com/stock/1308/
+[2021-03-14 08:28:16]cl_getDriver.py(37): getURL=https://kabuoji3.com/stock/1308/
+[2021-03-14 08:28:16]cl_getDriver.py(45): Open NewTab->https://kabuoji3.com/stock/1308/
+[2021-03-14 08:28:17]cl_getDriver.py(103): Not Found->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:28:19]cl_getDriver.py(103): Not Found->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:28:19]cl_getDriver.py(45): Open NewTab->https://kabuoji3.com/stock/1308/2021/
+[2021-03-14 08:28:20]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:28:22]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:28:23]cl_getDriver.py(45): Open NewTab->https://kabuoji3.com/stock/1308/2020/
+[2021-03-14 08:28:24]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:28:26]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:28:27]cl_getDriver.py(45): Open NewTab->https://kabuoji3.com/stock/1308/2019/
+[2021-03-14 08:28:28]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:28:30]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:28:31]cl_getDriver.py(45): Open NewTab->https://kabuoji3.com/stock/1308/2018/
+[2021-03-14 08:28:32]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:28:34]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:28:34]cl_getDriver.py(45): Open NewTab->https://kabuoji3.com/stock/1308/2017/
+[2021-03-14 08:28:35]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:28:38]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:28:38]cl_getDriver.py(45): Open NewTab->https://kabuoji3.com/stock/1308/2016/
+[2021-03-14 08:28:39]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:28:42]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:28:42]cl_getDriver.py(45): Open NewTab->https://kabuoji3.com/stock/1308/2015/
+[2021-03-14 08:28:43]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:28:45]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:28:46]cl_getDriver.py(45): Open NewTab->https://kabuoji3.com/stock/1308/2014/
+[2021-03-14 08:28:47]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:28:49]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:28:49]cl_getDriver.py(45): Open NewTab->https://kabuoji3.com/stock/1308/2013/
+[2021-03-14 08:28:50]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:28:53]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:28:53]cl_getDriver.py(45): Open NewTab->https://kabuoji3.com/stock/1308/2012/
+[2021-03-14 08:28:54]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:28:57]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:28:57]cl_getDriver.py(45): Open NewTab->https://kabuoji3.com/stock/1308/2011/
+[2021-03-14 08:28:58]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:29:00]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:29:01]cl_getDriver.py(45): Open NewTab->https://kabuoji3.com/stock/1308/2010/
+[2021-03-14 08:29:02]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:29:04]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:29:05]cl_getDriver.py(45): Open NewTab->https://kabuoji3.com/stock/1308/2009/
+[2021-03-14 08:29:06]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:29:08]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:29:08]cl_getDriver.py(45): Open NewTab->https://kabuoji3.com/stock/1308/2008/
+[2021-03-14 08:29:10]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:29:12]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:29:12]cl_getDriver.py(45): Open NewTab->https://kabuoji3.com/stock/1308/2007/
+[2021-03-14 08:29:14]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:29:16]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:29:16]cl_getDriver.py(45): Open NewTab->https://kabuoji3.com/stock/1308/2006/
+[2021-03-14 08:29:18]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:29:20]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:29:21]cl_getDriver.py(45): Open NewTab->https://kabuoji3.com/stock/1308/2005/
+[2021-03-14 08:29:22]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:29:24]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:29:24]cl_getDriver.py(45): Open NewTab->https://kabuoji3.com/stock/1308/2004/
+[2021-03-14 08:29:26]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:29:28]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:29:28]cl_getDriver.py(45): Open NewTab->https://kabuoji3.com/stock/1308/2003/
+[2021-03-14 08:29:30]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:29:32]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:29:33]cl_getDriver.py(45): Open NewTab->https://kabuoji3.com/stock/1308/2002/
+[2021-03-14 08:29:34]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:29:36]cl_getDriver.py(100): click_Success->//*[@id="base_box"]/div/div[3]/form/button
+[2021-03-14 08:29:37]main.py(41): finished Process->https://kabuoji3.com/stock/1308/
