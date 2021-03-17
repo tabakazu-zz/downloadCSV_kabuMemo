@@ -61,9 +61,6 @@ if __name__ == '__main__':
     #print(stockCodelist)
 
 
-    executor=concurrent.futures.ThreadPoolExecutor(max_workers=2)
-    for elem in tqdm(stockCodelist):
-        executor.submit(downloadFile,elem[0])
-
-    session.close()
-    sys.exit()
+    #executor=concurrent.futures.ThreadPoolExecutor(max_workers=2)
+    for elem in stockCodelist:
+        downloadFile(elem[0])

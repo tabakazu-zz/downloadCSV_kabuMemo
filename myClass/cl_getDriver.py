@@ -21,32 +21,19 @@ class GetDriver_Selenium ():
         self.options = webdriver.ChromeOptions ()
         # setting_options
         #download_path
-        #dldir_name='./download'
-        #dldir_Path=Path(dldir_name)
-        #dldir_Path.mkdir(exist_ok=True)
-        #download_path=str(dldir_Path.resolve())
+        dldir_name='./download'
+        dldir_Path=Path(dldir_name)
+        dldir_Path.mkdir(exist_ok=True)
+        download_path=str(dldir_Path.resolve())
         #headless
         #self.options.add_argument ( '--headless' )
 
         #保存先を毎回確認しない+選択した保存先を保持
-        #prefs = {}
-        #prefs['download.prompt_for_download'] = False
-        #prefs['download.directory_upgrade'] = True
-        #self.options.add_experimental_option('prefs', prefs)
+        prefs = {}
+        prefs['download.prompt_for_download'] = False
+        prefs['download.directory_upgrade'] = True
+        self.options.add_experimental_option('prefs', prefs)
 
-        #ダウンロード有効化
-        #self.driver.command_executor._commands["send_command"] = (
-        #    'POST',
-        #    '/session/$sessionId/chromium/send_command'
-        #)
-
-        #self.driver.execute(
-        #    "send_command",
-        #    params={
-        #        'cmd': 'Page.setDownloadBehavior',
-        #        'params': {'behavior': 'allow', 'downloadPath': download_path}
-        #    }
-        #)
         #
         """
         if osVersion == "win":
@@ -63,6 +50,20 @@ class GetDriver_Selenium ():
         self.driver.get ( url )
         logging.debug(f'getURL={url}')
 
+    def driver_sendCommand(self):
+        #ダウンロード有効化
+        self.driver.command_executor._commands["send_command"] = (
+            'POST',
+            '/session/$sessionId/chromium/send_command'
+        )
+
+        self.driver.execute(
+            "send_command",
+            params={
+                'cmd': 'Page.setDownloadBehavior',
+                'params': {'behavior': 'allow', 'downloadPath': download_path}
+            }
+        )
     def newTab(self, url):
         self.driver.execute_script ( "window.open()" )
         #ウィンドウハンドルの取得
