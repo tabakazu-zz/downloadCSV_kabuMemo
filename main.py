@@ -4,9 +4,10 @@ from myClass.cl_getDriver import GetDriver_Selenium
 import time
 import logging.config
 import concurrent.futures
+
 logging.config.fileConfig ( './logging.conf' )
 logger = logging.getLogger ()
-
+from tqdm import tqdm
 from pprint import pprint
 
 def downloadFile(target):
@@ -48,16 +49,21 @@ if __name__ == '__main__':
     from sqlalchemy import text
     from sqlAlchemy.models import table_Stock_Code
     import sys
+
     args=sys.argv
 
     cli_sql = cli_sql()
     session = cli_sql.get_session()
 
     stockCodelist = session.query(table_Stock_Code.codeNum). \
-        filter(table_Stock_Code.tiCode_17 == args[1]). \
+        filter(table_Stock_Code.tiCode_17 == 5). \
         all()
     #print(stockCodelist)
 
+
     executor=concurrent.futures.ThreadPoolExecutor(max_workers=2)
-    for elem in stockCodelist:
+    for elem in tqdm(stockCodelist):
         executor.submit(downloadFile,elem[0])
+
+    session.close()
+    sys.exit()

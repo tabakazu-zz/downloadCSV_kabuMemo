@@ -11,7 +11,7 @@ from selenium.common.exceptions import NoSuchElementException
 from bs4 import BeautifulSoup
 import re
 import logging.config
-import pathlib
+from pathlib import Path
 
 
 class GetDriver_Selenium ():
@@ -20,7 +20,34 @@ class GetDriver_Selenium ():
         self.logger = logging.getLogger ( __name__ )
         self.options = webdriver.ChromeOptions ()
         # setting_options
+        #download_path
+        #dldir_name='./download'
+        #dldir_Path=Path(dldir_name)
+        #dldir_Path.mkdir(exist_ok=True)
+        #download_path=str(dldir_Path.resolve())
+        #headless
         #self.options.add_argument ( '--headless' )
+
+        #保存先を毎回確認しない+選択した保存先を保持
+        #prefs = {}
+        #prefs['download.prompt_for_download'] = False
+        #prefs['download.directory_upgrade'] = True
+        #self.options.add_experimental_option('prefs', prefs)
+
+        #ダウンロード有効化
+        #self.driver.command_executor._commands["send_command"] = (
+        #    'POST',
+        #    '/session/$sessionId/chromium/send_command'
+        #)
+
+        #self.driver.execute(
+        #    "send_command",
+        #    params={
+        #        'cmd': 'Page.setDownloadBehavior',
+        #        'params': {'behavior': 'allow', 'downloadPath': download_path}
+        #    }
+        #)
+        #
         """
         if osVersion == "win":
             self.dPath = r'./driver/win/chromedriver.exe'
