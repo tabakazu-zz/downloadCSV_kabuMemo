@@ -12,7 +12,7 @@ from pprint import pprint
 
 def downloadFile(target):
     targetURL=f'https://kabuoji3.com/stock/{target}/'
-    logging.debug(f'start_Process->{targetURL}')
+    logging.info(f'start_Process->{targetURL}')
     myDriver=GetDriver_Selenium()
     myDriver.getdriver(targetURL)
 
@@ -39,7 +39,11 @@ def downloadFile(target):
             logging.error(eMes)
 
     myDriver.QuitDriver()
-    logging.debug(f'finished Process->{targetURL}')
+    logging.info(f'finished Process->{targetURL}')
+
+def test(target):
+    print(target)
+
 
 if __name__ == '__main__':
     """
@@ -49,6 +53,7 @@ if __name__ == '__main__':
     from sqlalchemy import text
     from sqlAlchemy.models import table_Stock_Code
     import sys
+    from concurrent import futures
 
     args=sys.argv
 
@@ -58,9 +63,12 @@ if __name__ == '__main__':
     stockCodelist = session.query(table_Stock_Code.codeNum). \
         filter(table_Stock_Code.tiCode_17 == 5). \
         all()
-    #print(stockCodelist)
+    print(stockCodelist)
 
+    future_list=[]
+    with futures.ThreadPoolExecutor(max_workers=5) as executor:
 
-    #executor=concurrent.futures.ThreadPoolExecutor(max_workers=2)
-    for elem in stockCodelist:
-        downloadFile(elem[0])
+        for elem in stockCodelist:
+            executor.submit(downloadFile,target=elem[0])
+
+    print('completed')

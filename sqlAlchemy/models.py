@@ -23,4 +23,9 @@ class table_Stock_Code(Base):
     scaleCode=Column('scaleCode',Integer) #規模コード
     scaleSection=Column('scaleSection',String(20)) #規模区分
 
+class table_US_Stock_Prices(Base):
+    __tabakename__="US_Stock_Price"
+    symbol=Column('symbol',String(20),primary_key=True)
+    date=Column('date',string(20),primary_key=True)
+    open=Column('open')
 
