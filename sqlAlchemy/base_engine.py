@@ -16,7 +16,7 @@ class BaseEngine(object):
         charset_type = "utf8"
         db_url = f"{dialect}+{driver}://{username}:{password}@{host}:{port}/{database}?charset={charset_type}"
         """
-        db_url = "sqlite:///./stock.db"
+        db_url = "sqlite:///stock.db"
         self.engine = create_engine(db_url, echo=True)
 
 class BaseSession ( BaseEngine ):

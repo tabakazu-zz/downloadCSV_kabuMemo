@@ -2,6 +2,7 @@ from sqlalchemy import Column, Integer, String
 from sqlalchemy.ext.declarative import declarative_base
 from sqlAlchemy.base_engine import BaseEngine
 from sqlalchemy.types import DateTime
+from sqlalchemy.types import Float
 
 Base = declarative_base()
 Base.metadata.bind=BaseEngine().engine
@@ -23,9 +24,15 @@ class table_Stock_Code(Base):
     scaleCode=Column('scaleCode',Integer) #規模コード
     scaleSection=Column('scaleSection',String(20)) #規模区分
 
-class table_US_Stock_Prices(Base):
-    __tabakename__="US_Stock_Price"
-    symbol=Column('symbol',String(20),primary_key=True)
-    date=Column('date',string(20),primary_key=True)
-    open=Column('open')
+class table_US_Stock_Price(Base):
+    __tablename__="US_Stock_Price"
+    symbol=Column('Symbol',String(20),primary_key=True)
+    date=Column('Date',String(20),primary_key=True)
+    open=Column('Open',Float)
+    close=Column('Close',Float)
+    high=Column('High',Float)
+    low=Column('Low',Float)
+    volume=Column('Volume',Float)
+    adj_Close=Column('Adj_Close',Float)
+
 
