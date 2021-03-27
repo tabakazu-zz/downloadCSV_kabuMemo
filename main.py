@@ -35,7 +35,7 @@ def downloadFile(target):
             myDriver.closeTab()
 
         except Exception as e:
-            eMes=f'type:{str(type(e))}\nargs:{str(e.args)}\nmes:{str(e.message)}\n{str(e)}'
+            eMes=f'type:{str(type(e))}\nargs:{str(e.args)}\n{str(e)}'
             logging.error(eMes)
 
     myDriver.QuitDriver()

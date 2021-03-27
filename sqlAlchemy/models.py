@@ -11,7 +11,7 @@ class table_Stock_Code(Base):
     """
     if use Datetime,need to write "from sqlalchemy.types import Datetime"
     """
-    __tablename__="stockCode"
+    __tablename__="stockCode_jp"
     id = Column('id',Integer, primary_key=True)
     created=Column('created',DateTime)
     codeNum=Column('codeNum',Integer)
@@ -27,6 +27,17 @@ class table_Stock_Code(Base):
 class table_US_Stock_Price(Base):
     __tablename__="US_Stock_Price"
     symbol=Column('Symbol',String(20),primary_key=True)
+    date=Column('Date',String(20),primary_key=True)
+    open=Column('Open',Float)
+    close=Column('Close',Float)
+    high=Column('High',Float)
+    low=Column('Low',Float)
+    volume=Column('Volume',Float)
+    adj_Close=Column('Adj_Close',Float)
+
+class table_JP_Stock_Price(Base):
+    __tablename__="Jp_Stock_Price"
+    symbol=Column('Symbol',String(6),primary_key=True)
     date=Column('Date',String(20),primary_key=True)
     open=Column('Open',Float)
     close=Column('Close',Float)
