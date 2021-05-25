@@ -43,7 +43,7 @@ class Csv_to_Sql():
         targetlist=[]
 
         #session作成
-        mysql = cli_sql()
+        mysql = cldoi_sql()
         session = mysql.get_session()
 
         with open(targetPath,'r') as f:
