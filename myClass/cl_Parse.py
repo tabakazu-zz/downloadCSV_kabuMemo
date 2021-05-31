@@ -114,9 +114,11 @@ class Mybs4 ():
     def get_tables(self, is_Talkable=True):
         tables = self.soup.findAll ( "table" )
         n_tables = len ( tables )
+
         if n_tables == 0:
             eMsg = "table not found."
             raise Exception ( eMsg )
+
         if is_Talkable:
             print ( f'{n_tables} table tags found' )
         return tables
