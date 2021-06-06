@@ -1,6 +1,8 @@
 import re
 
 class MyRE():
+    def __init__(self):
+        self.myPattern=None
     def set_Pattern(self,pattern):
         self.myPattern = re.compile ( pattern )
 
@@ -30,5 +32,13 @@ class MyRE():
         m=re.split(self.myPattern,source)
         return m
 
-    def Sub(self,source,repalecWord):
+    def Sub(self,source,repalecWord,pattern=None):
+        if pattern is None:
+            if self.myPattern is not None:
+                pattern=self.myPattern
+            else:
+                eMsg="pattern doesn't set"
+                raise Exception(eMsg)
+
         m=re.sub(self.myPattern,repalecWord,source)
+        return m

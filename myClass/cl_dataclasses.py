@@ -1,6 +1,8 @@
 import dataclasses
 from myClass.cl_myRE import MyRE
 import datetime
+from dataclasses import asdict
+
 
 
 @dataclasses.dataclass
@@ -75,13 +77,15 @@ class data_stockPrice:
     """
 
     Symbol: str=dataclasses.field ( init=False )
-    Date: datetime.datetime=dataclasses.field ( init=False )
+    d_Date: datetime.datetime=dataclasses.field ( init=False )
     Open: int=dataclasses.field ( init=False )
     Close: int=dataclasses.field ( init=False )
     High: int=dataclasses.field ( init=False )
     Low: int=dataclasses.field ( init=False )
     Volume: int=dataclasses.field ( init=False )
     AdjClose: int=dataclasses.field ( init=False )
+
+
 
 
 @dataclasses.dataclass
@@ -94,7 +98,7 @@ class data_Sinyou:
     m_rate:倍率
     """
     Symbol: str
-    Date: datetime.datetime
+    d_Date: datetime.datetime
     msb: float
     mbb: float
     m_rate: float
@@ -113,7 +117,7 @@ class data_dayBefore:
     rate_P:前日比（％）
     """
     Symbol:str
-    Date:datetime.datetime
+    d_Date:datetime.datetime
     Price:int
     rate:float
     rate_P:float
@@ -128,5 +132,60 @@ class data_cCompany:
     Symbol:str
     Unit:int
     c_Company:str
-
-
+@dataclasses.dataclass
+class data_Other:
+    """
+    symbol:銘柄コード
+    Date:日付
+    TP：売買代金(TradingPrice) 百万円
+    VMAP：VMAP　円
+    NOPro：約定回数(NumberOfProduct)　回
+    MTP:売買最低代金(MinimumTradingPrice)　円
+    MC:時価総額(Market capitalization)　億円
+    NPUnit:単元株数(Number of shares per unit)　株
+    NIS:発行済株式数(Number of issued shares)　株
+    """
+    Symbol:str=''
+    d_Date:datetime.datetime=''
+    TP:int=0
+    VWAP:float=0
+    NOPro:int=0
+    MTP:int=0
+    MC:int=0
+    NPUnit:int=0
+    NIS:int=0
+@dataclasses.dataclass
+class data_PerStock:
+    """
+    Symbol:銘柄コード
+    Date:日付
+    PER:PER 倍
+    PBR:PBR 倍
+    s_Yield:利回り　%
+    s_Rate:信用倍率
+    MC:時価総額
+    """
+    Symbol:str=''
+    d_Date: datetime.datetime = ''
+    PER:int=0
+    PBR:int=0
+    s_Yield:int=0
+    s_Rate:int=0
+    MC:int=0
+@dataclasses.dataclass
+class data_dRate:
+    """
+    日毎の移動平均線乖離率
+    Symbol:銘柄コード
+    d_Date：日付
+    5day:５日線乖離率
+    25day:25日線乖離率
+    75day:75日線乖離率
+    200day:200日乖離率
+    """
+    Symbol:str=''
+    d_Date:datetime.datetime=''
+    day_5:float=''
+    day_25:float=''
+    day_75:float=''
+    day_200:float=''
