@@ -97,11 +97,11 @@ class data_Sinyou:
     mbb:margin buying balance->信用買い残
     m_rate:倍率
     """
-    Symbol: str
-    d_Date: datetime.datetime
-    msb: float
-    mbb: float
-    m_rate: float
+    Symbol: str=''
+    d_Date: datetime.datetime=''
+    msb: float=0
+    mbb: float=0
+    m_rate: float=0
 
     def __post_init__(self):
         if self.m_rate=="-":
@@ -116,11 +116,11 @@ class data_dayBefore:
     rate:前日比
     rate_P:前日比（％）
     """
-    Symbol:str
-    d_Date:datetime.datetime
-    Price:int
-    rate:float
-    rate_P:float
+    Symbol:str=''
+    d_Date:datetime.datetime=''
+    Price:int=0
+    rate:float=0
+    rate_P:float=0
 @dataclasses.dataclass
 class data_cCompany:
     """
@@ -129,9 +129,9 @@ class data_cCompany:
     unit:単位
     c_Company:比較会社
     """
-    Symbol:str
-    Unit:int
-    c_Company:str
+    Symbol:str=''
+    Unit:int=0
+    c_Company:str=''
 @dataclasses.dataclass
 class data_Other:
     """

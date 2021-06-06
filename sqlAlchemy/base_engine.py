@@ -5,20 +5,19 @@ from sqlalchemy.orm import sessionmaker
 
 class BaseEngine(object):
     def __init__(self):
-
+        """
         dialect = "mysql"
-        driver = "pymysql"
-        username = "stockUser"
-        password = "jaundice-exit-paddle-genii"
-        host = "192.168.1.240"
+        driver = "mysqldb"
+        username = "root"
+        password = "xxxxxxxx"
+        host = "192.168.30.30"
         port = "3306"
-        database = "stock_db"
+        database = "sample_db"
         charset_type = "utf8"
         db_url = f"{dialect}+{driver}://{username}:{password}@{host}:{port}/{database}?charset={charset_type}"
-
-        #db_url = "sqlite:///Y:\$Stock\stock.db"
+        """
+        db_url = "sqlite:///stock.db"
         self.engine = create_engine(db_url, echo=True)
-
 
 class BaseSession ( BaseEngine ):
     def __init__(self):

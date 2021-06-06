@@ -9,7 +9,7 @@ cli_sql=cli_sql()
 session=cli_sql.get_session()
 
 stockCodelist=session.query(table_Stock_Code.codeNum).\
-    filter(table_Stock_Code.tiCode_17==1).\
+    filter(table_Stock_Code.tiCode_17=="-").\
     all()
 
 for elem in stockCodelist:

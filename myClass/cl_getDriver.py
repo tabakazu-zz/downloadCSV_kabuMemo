@@ -1,3 +1,7 @@
+"""
+use Selenium
+need to Path "chromeDriver"
+"""
 import os
 import time
 import datetime

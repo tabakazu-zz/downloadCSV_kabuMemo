@@ -127,13 +127,16 @@ def getDataFromKabuTan(code):
     del sinyouList[0]
     data_Sinyou=['']*len(sinyouList)
 
+    datalist_Sinyou=[]
     for i,elem in enumerate(sinyouList):
-        data_Sinyou[i]=dbClass.data_Sinyou
+        data_Sinyou[i]=dbClass.data_Sinyou()
         data_Sinyou[i].Symbol=code
         data_Sinyou[i].d_Date=elem[0]
         data_Sinyou[i].msb=elem[1]
         data_Sinyou[i].mbb=elem[2]
         data_Sinyou[i].m_rate=elem[3]
+
+        datalist_Sinyou.append(data_Sinyou[i])
 
     # ————————————————————————————————————+
     # Symbol,Date,Close,前日比,前日比(%)
@@ -151,12 +154,12 @@ def getDataFromKabuTan(code):
     #print(dayBefore)#->['-7','-0.48']
 
 
-    data_dayBefore=dbClass.data_dayBefore
-    data_dayBefore.Symbol=code
-    data_dayBefore.d_Date=date_get
-    data_dayBefore.Price=n_Price.replace("円","")
-    data_dayBefore.rate=dayBefore[0]
-    data_dayBefore.rate_P=dayBefore[1]
+    d_dayBefore=dbClass.data_dayBefore()
+    d_dayBefore.Symbol=code
+    d_dayBefore.d_Date=date_get
+    d_dayBefore.Price=n_Price.replace("円","")
+    d_dayBefore.rate=dayBefore[0]
+    d_dayBefore.rate_P=dayBefore[1]
 
     #print(data_dayBefore)
 
@@ -175,7 +178,7 @@ def getDataFromKabuTan(code):
     perdict["stockCode"] = code
     perdict["date"]=date_get
 
-    data_PerStock=dbClass.data_PerStock
+    data_PerStock=dbClass.data_PerStock()
     for k,v in perdict.items():
         if k=="stockCode":
             data_PerStock.Symbol=v
@@ -224,20 +227,20 @@ def getDataFromKabuTan(code):
     #業績
     gyouseki=ins_Soup.selectCSSfromElem(kobetsu2[0],"div.gyouseki_block table")
     cell=getCell(gyouseki)
-    print(cell)
+    #print(cell)
 
 
     #PER,PBR,利回り、信用倍率,時価総額
     tables=ins_Soup.get_tablesfromElem(con3[0],False)
     cell=getCell(tables)
-    #print(cell)
+    print(cell)
 
 
     tables=ins_Soup.get_tablesfromElem(kobetsu2[0])
     cell=getCell(tables)
 
     # 5日線、25日線、75日線、200日線
-    print(cell[0][2],cell[0][3])
+    #print(cell[0][2],cell[0][3])
 
     dRateDic={k:v.replace("％","") for (k,v)in zip(cell[0][2],cell[0][3])}
     dRateDic['Symbol']=code
@@ -254,8 +257,44 @@ def getDataFromKabuTan(code):
     #四本足
     csvOutput=output.dataOutput()
     dict_stockPrice=asdict(data_stockPrice)
-
     csvOutput.outPutCSV_Dict(dict_stockPrice,"./Data/stockPrice.csv")
+
+
+    # ————————————————————————————————————+
+    # 売買代金,VWAP,約定回数,売買最低代金,時価総額,\
+    # 単元株数、時価総額、発行済株式数
+    # ――――――――――――――――――――――――――――――――――――+
+    dict_otherData=asdict(data_Other)
+    csvOutput.outPutCSV_Dict(dict_otherData,"./Data/stockOtherData.csv")
+
+    #----------------------------------------+
+    #信用取引情報
+    #----------------------------------------+
+    for elem in datalist_Sinyou:
+        dict_Sinyou=asdict(elem)
+        csvOutput.outPutCSV_Dict(dict_Sinyou,"./Data/SinyouData.csv")
+
+    #----------------------------------------+
+    # Symbol,Date,Close,前日比,前日比(%)
+    #----------------------------------------+
+    dict_dayBefore=asdict(d_dayBefore)
+    csvOutput.outPutCSV_Dict(dict_dayBefore,"./Data/dayBefore.csv")
+
+    # ----------------------------------------+
+    # PER,PBR,利回り、信用倍率
+    # ----------------------------------------+
+    dict_perStock=asdict(data_PerStock)
+    csvOutput.outPutCSV_Dict(dict_perStock,"./Data/perStock.csv")
+    # ----------------------------------------+
+    # Symbol,単位、比較会社
+    # ----------------------------------------+
+    dict_C_Company=asdict(d_cCompany)
+    csvOutput.outPutCSV_Dict(dict_C_Company,"./Data/c_Company.csv")
+
+    # ----------------------------------------+
+    # 業績->
+    # Symbol,決算期、売上高、経常益、最終駅、１株益、１株配、発表日
+    # ----------------------------------------+
 
 
 
