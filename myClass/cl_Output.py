@@ -63,14 +63,24 @@ class dataOutput():
                 for source in sourceList:
                     writer.writerow(source)
 
-    def outPutCSV_list(self,myData,writeMode="a"):
+    def outPutCSV_list(self,myData,csvPath='',writeMode="a",header=True):
         """
         output csv
         :param outPutPath:
         :param writeMode: "a"=Add or "w"=overwrite default "a"
         :param myData: inputData(type:list)
+        :param csvPath:出力先CSVPath
+        :param header=True->１つめのリストを読み飛ばす、False->１つめのリストから書き込み
         :return:
         """
+        #writemode=w->create New File
+        #writemode=a->
+        def writeCSVFile(self):
+
+        if header:
+
+        else:
+
         if isinstance(myData[0],list) :
             with open (self.outPutPath, writeMode ) as f:
                 writer = csv.writer ( f )

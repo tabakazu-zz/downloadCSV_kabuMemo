@@ -10,6 +10,8 @@ import myClass.cl_dataclasses as dbClass
 import myClass.cl_Output as output
 import myClass.d_Common as d_Common
 from dataclasses import asdict
+from sqlAlchemy.curd import cli_sql
+from sqlAlchemy.models import *
 
 def getDataFromKabuTan(code):
     url=f"https://kabutan.jp/stock/?code={code}"
@@ -52,7 +54,7 @@ def getDataFromKabuTan(code):
     ins_Soup.set_html(res.text)
     con1 = ins_Soup.selectCSS ( "#stockinfo_i1" )  # 社名、前日比,
     kobetsu1=ins_Soup.selectCSS("#kobetsu_left") #前日終値〜情報提供
-    print(kobetsu1)
+    #print(kobetsu1)
 
 
     #取得日
@@ -75,7 +77,7 @@ def getDataFromKabuTan(code):
             data_stockPrice.High=int(tValue.replace(",",""))
         elif tlist[0]=="安値":
             data_stockPrice.Low=int(tValue.replace(",",""))
-        elif tlist[0]=="終値":
+        elif tlist[0]=="終値" or tlist[0]=="現在値":
             data_stockPrice.Close=int(tValue.replace(",",""))
             # 調整後終値->closeで代用
             data_stockPrice.AdjClose=data_stockPrice.Close
@@ -227,33 +229,33 @@ def getDataFromKabuTan(code):
     #業績
     gyouseki=ins_Soup.selectCSSfromElem(kobetsu2[0],"div.gyouseki_block table")
     cell=getCell(gyouseki)
+    #headerに追加　銘柄コード、
+    cell[0].insert(0,'Symbol')
+    for i,elist in enumerate(cell):
+        if i==0:
+            continue
+
+        elist.insert(0,code)
+
+
     #print(cell)
 
 
-    #PER,PBR,利回り、信用倍率,時価総額
-    tables=ins_Soup.get_tablesfromElem(con3[0],False)
-    cell=getCell(tables)
-    print(cell)
-
-
+    # —————————————————————————
+    # 5日線、25日線、75日線,200日線
+    # —————————————————————————
     tables=ins_Soup.get_tablesfromElem(kobetsu2[0])
     cell=getCell(tables)
-
-    # 5日線、25日線、75日線、200日線
-    #print(cell[0][2],cell[0][3])
 
     dRateDic={k:v.replace("％","") for (k,v)in zip(cell[0][2],cell[0][3])}
     dRateDic['Symbol']=code
     dRateDic['Date']=date_get
-    print(dRateDic)
+    #print(dRateDic)
 
-    gaiyouHead=['コード','日付','会社名','始値','高値','安値','終値','出来高','売買代金','VWAP','約定回数','売買最低代金','単元株数','時価総額','発行済株式数']
-    gyousekiHead=['コード',"発表日",'決算期','費目','結果']
-    sinyouHead=['コード','日付','売り残','買い残','倍率']
 
-    # ————————————————————————————————————+
+    # ————————————————————————————————————-+
     # csv出力
-    # ――――――――――――――――――――――――――――――――――――+
+    # ―――――――――――――――――――――--+
     #四本足
     csvOutput=output.dataOutput()
     dict_stockPrice=asdict(data_stockPrice)
@@ -297,9 +299,22 @@ def getDataFromKabuTan(code):
     # ----------------------------------------+
 
 
+    # ----------------------------------------+
+    # 5日線、25日線、75日線,200日線
+    # ----------------------------------------+
+    csvOutput.outPutCSV_Dict(dRateDic,"./Data/dRate.csv")
+
+
 
 
 if __name__=="__main__":
     logger=d_Common.root_logger()
     logger.info('Process Start')
+
+    cli_sql=cli_sql()
+    session=cli_sql.get_session()
+
+    stockCodeList=session.query(table_Stock_Code.codeNum).\
+        all()
+
     getDataFromKabuTan(3990)

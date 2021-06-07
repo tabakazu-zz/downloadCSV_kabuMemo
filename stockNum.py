@@ -1,4 +1,4 @@
-#TODO:data_j.xlsからデータを読み込んでstock.db->table_Stock_Codeに追加
+#data_j.xlsからデータを読み込んでstock.db->table_Stock_Codeに追加
 import xlwings as xw
 import xlwing.cl_xlwings as fun
 from sqlAlchemy.curd import cli_sql
