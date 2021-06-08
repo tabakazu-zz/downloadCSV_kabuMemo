@@ -235,9 +235,9 @@ def getDataFromKabuTan(code):
         if i==0:
             continue
 
-        elist.insert(0,code)
+        elist.insert(0,str(code))
 
-
+    li_Gyouseki=cell
     #print(cell)
 
 
@@ -297,6 +297,10 @@ def getDataFromKabuTan(code):
     # 業績->
     # Symbol,決算期、売上高、経常益、最終駅、１株益、１株配、発表日
     # ----------------------------------------+
+    if csvOutput.chkFileExists("./Data/gyouseki.csv"):
+        csvOutput.outPutCSV_list(li_Gyouseki,"./Data/gyouseki.csv",header=False)
+    else:
+        csvOutput.outPutCSV_list(li_Gyouseki,"./Data/gyouseki.csv",header=True)
 
 
     # ----------------------------------------+
@@ -317,4 +321,6 @@ if __name__=="__main__":
     stockCodeList=session.query(table_Stock_Code.codeNum).\
         all()
 
-    getDataFromKabuTan(3990)
+    for e_Code in stockCodeList:
+        print(int(e_Code))
+        getDataFromKabuTan(e_Code)
