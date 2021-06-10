@@ -12,6 +12,7 @@ import myClass.d_Common as d_Common
 from dataclasses import asdict
 from sqlAlchemy.curd import cli_sql
 from sqlAlchemy.models import *
+from concurrent import futures
 
 def getDataFromKabuTan(code):
     url=f"https://kabutan.jp/stock/?code={code}"
@@ -272,9 +273,9 @@ def getDataFromKabuTan(code):
     #----------------------------------------+
     #信用取引情報
     #----------------------------------------+
-    for elem in datalist_Sinyou:
-        dict_Sinyou=asdict(elem)
-        csvOutput.outPutCSV_Dict(dict_Sinyou,"./Data/SinyouData.csv")
+    #for elem in datalist_Sinyou:
+    #    dict_Sinyou=asdict(elem)
+    #    csvOutput.outPutCSV_Dict(dict_Sinyou,"./Data/SinyouData.csv")
 
     #----------------------------------------+
     # Symbol,Date,Close,前日比,前日比(%)
@@ -290,17 +291,17 @@ def getDataFromKabuTan(code):
     # ----------------------------------------+
     # Symbol,単位、比較会社
     # ----------------------------------------+
-    dict_C_Company=asdict(d_cCompany)
-    csvOutput.outPutCSV_Dict(dict_C_Company,"./Data/c_Company.csv")
+    #dict_C_Company=asdict(d_cCompany)
+    #csvOutput.outPutCSV_Dict(dict_C_Company,"./Data/c_Company.csv")
 
     # ----------------------------------------+
     # 業績->
     # Symbol,決算期、売上高、経常益、最終駅、１株益、１株配、発表日
     # ----------------------------------------+
-    if csvOutput.chkFileExists("./Data/gyouseki.csv"):
-        csvOutput.outPutCSV_list(li_Gyouseki,"./Data/gyouseki.csv",header=False)
-    else:
-        csvOutput.outPutCSV_list(li_Gyouseki,"./Data/gyouseki.csv",header=True)
+    #if csvOutput.chkFileExists("./Data/gyouseki.csv"):
+    #    csvOutput.outPutCSV_list(li_Gyouseki,"./Data/gyouseki.csv",header=False)
+    #else:
+    #    csvOutput.outPutCSV_list(li_Gyouseki,"./Data/gyouseki.csv",header=True)
 
 
     # ----------------------------------------+
@@ -320,7 +321,7 @@ if __name__=="__main__":
 
     stockCodeList=session.query(table_Stock_Code.codeNum).\
         all()
-
-    for e_Code in stockCodeList:
-        print(int(e_Code))
-        getDataFromKabuTan(e_Code)
+    
+    with futures.ThreadPoolExecutor(max_workers=2) as executor:
+        for e_Code in stockCodeList:
+            executor.submit(getDataFromKabuTan,code=e_Code[0])
